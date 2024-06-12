@@ -1,0 +1,16 @@
+﻿apiVersion: v1
+# Indicates this as a service
+kind: Service
+metadata:
+ # Service name
+ name: k8stest-deployment
+spec:
+ selector:
+   # Selector for Pods
+   app: k8stest
+ ports:
+   # Port Map
+ - port: 80
+   targetPort: 3000
+   protocol: TCP
+ type: LoadBalancer
