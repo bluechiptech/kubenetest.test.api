@@ -17,9 +17,5 @@ spec:
       containers:
       - name: k8stest-deployment
         image: laolu/k8stest
-        resources:
-          requests:
-            cpu: "100m"
-        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
