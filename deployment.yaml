@@ -5,8 +5,11 @@ metadata:
   labels:
     app: k8stest
 spec:
+  #How many copies of each pod do we want?
   replicas: 2
+  #Which pods are managed by this deployment?
   selector:
+   #This must match the labels we set on the pod!
     matchLabels:
       app: k8stest
   template:
@@ -15,7 +18,9 @@ spec:
         app: k8stest
     spec:
       containers:
-      - name: k8stest-deployment
-        image: laolu/k8stest
-        ports:
-        - containerPort: 3000
+        - name: k8stest-container
+          image: laolu/k8stest
+          ports:
+          #conatainerPort is actually optional ,Even without it your Service will know where to direct 
+          #the request based on the info it has declared in its targetPort
+            - containerPort: 3000 
