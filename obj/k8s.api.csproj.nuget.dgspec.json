@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LaoluOlapegba\\source\\repos\\k8s.api\\k8s.api.csproj": {}
+    "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\k8s.api.csproj": {}
   },
   "projects": {
-    "C:\\LaoluOlapegba\\source\\repos\\k8s.api\\k8s.api.csproj": {
+    "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\k8s.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LaoluOlapegba\\source\\repos\\k8s.api\\k8s.api.csproj",
+        "projectUniqueName": "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\k8s.api.csproj",
         "projectName": "k8s.api",
-        "projectPath": "C:\\LaoluOlapegba\\source\\repos\\k8s.api\\k8s.api.csproj",
+        "projectPath": "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\k8s.api.csproj",
         "packagesPath": "C:\\Users\\laolu\\.nuget\\packages\\",
-        "outputPath": "C:\\LaoluOlapegba\\source\\repos\\k8s.api\\obj\\",
+        "outputPath": "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\laolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
