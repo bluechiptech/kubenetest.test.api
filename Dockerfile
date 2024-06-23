@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 4040
+EXPOSE 80
 
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
@@ -19,5 +19,5 @@ RUN dotnet publish "k8s.api.csproj" -c Release -o /app/publish /p:UseAppHost=fal
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV ASPNETCORE_URLS=http://*:4040
+ENV ASPNETCORE_URLS=http://*:80
 ENTRYPOINT ["dotnet", "k8s.api.dll"]
