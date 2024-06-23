@@ -19,7 +19,7 @@ RUN dotnet publish "k8s.api.csproj" -c Release -o /app/publish /p:UseAppHost=fal
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ASPNETCORE_URLS=https://+:443;http://+:80
+ENV ASPNETCORE_URLS=http://*:80;https://*:443
 ASPNETCORE_Kestrel__Certificates__Default__Password=S3cr#tPass
 ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
     volumes:
