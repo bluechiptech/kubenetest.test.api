@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>2c216852-ad05-4049-a1b8-c5cee3f52089</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>.</DockerfileContext>
+    <DockerfileContext>..\kubernetesttest</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>

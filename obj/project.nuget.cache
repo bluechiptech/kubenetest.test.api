@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BCZdRsBWTHJLKV+sDmmhc/KjasZF6mPYBTdQELPzbj45PLFyVwJxeB+resbeJmZmbZnx/bLd4+lJuMl+Qz3TAw==",
+  "dgSpecHash": "HrAgHDJ1fymiwg3Hb/o4J4vyiwz2HQ0YKYHrQMNya4GXOAJ4ArUC5tDs+O3Qo6Ji3dAPgSwrQPoc3lD7D0Y3Kg==",
   "success": true,
-  "projectFilePath": "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\k8s.api\\k8s.api.csproj",
+  "projectFilePath": "C:\\LaoluOlapegba\\source\\repos\\k8s.apitest\\kubernetesttest\\k8s.api\\k8s.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laolu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\laolu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
